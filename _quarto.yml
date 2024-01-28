@@ -1,0 +1,17 @@
+project:
+  type: website
+  resources: 
+  - shinylive-sw.js
+
+website:  
+  repo-url: https://github.com/jfeldhege/shinylive_test
+  repo-actions: [edit, issue]
+  title: "Testing shinylive extension in Quarto documents"
+
+format:
+  html:
+    grid: 
+      body-width: 1350px
+      sidebar-width: 200px
+      margin-width: 200px
+    toc: true
